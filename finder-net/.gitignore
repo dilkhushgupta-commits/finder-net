@@ -1,0 +1,41 @@
+# Environment
+.env
+.env.local
+.env.production
+!.env.example
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+
+# Build outputs
+dist/
+build/
+
+# Uploads (user-generated content)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker volumes
+docker-data/
+
+# Python
+*.egg-info/
+.venv/
+venv/
